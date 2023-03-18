@@ -1,0 +1,77 @@
+h1 {
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+h2 {
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+h3 {
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  line-height: 20px;
+  color: lightgray;
+  background-color: black;
+}
+
+a:link {
+  color: red;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 1s ease; 
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  cursor: pointer
+}
+
+a:visited {
+  color: darkred;
+  text-decoration: none;
+}
+
+a:hover {
+  color: orangered;
+  text-decoration: none;
+  letter-spacing: 2px; 
+}
+
+a:active {
+  color: maroon;
+  text-decoration: none;
+} 
+
+p {
+  width: 600px;
+  margin: auto;
+  text-align: center;
+}
+
+.homelink {
+    position:static;
+    bottom: 0; 
+    width:100%; 
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 50px;
+}
+
+.flip {
+  transform: scale(-1, 1);
+  -moz-transform: scale(-1, 1);
+  -webkit-transform: scale(-1, 1);
+  -o-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+}
+
