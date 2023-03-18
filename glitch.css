@@ -26,9 +26,6 @@
     font-size: 50px;
     line-height: 70px;
     text-align: center;
-    transition: all 1s ease; 
-    -webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
     text-shadow: 5px 0px rgba(255,0,255, 1),
                  -5px 0px rgba(0,255,255, 1);
     animation: flicker 5s infinite;
