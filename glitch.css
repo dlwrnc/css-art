@@ -1,0 +1,106 @@
+.flip {
+  transform: scale(-1, 1);
+  -moz-transform: scale(-1, 1);
+  -webkit-transform: scale(-1, 1);
+  -o-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+}
+
+
+#glitch {
+    font-family: 'Libre Barcode 39 Text', cursive;
+    color: rgba(255,255,255, 0.9);
+    font-size: 70px;
+    line-height: 80px;
+    text-align: center;
+    transition: all 1s ease; 
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    text-shadow: 5px 0px rgba(255,0,0, 0.9),
+                 -5px 0px rgba(0,0,255, 1);
+
+}
+
+#glitch:hover {
+    color: rgba(255,255,255, 1);
+    text-align: center;
+    text-shadow: 2px 0px rgba(255,0,0, 0.8),
+                 -2px 0px rgba(0,0,255, 0.9);
+
+}
+
+#glitch2 {
+    font-family: 'Press Start 2P', cursive;
+    color: rgba(255,255,255, 1);
+    font-size: 50px;
+    line-height: 70px;
+    text-align: center;
+    transition: all 1s ease; 
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    text-shadow: 5px 0px rgba(255,0,255, 1),
+                 -5px 0px rgba(0,255,255, 1);
+    animation: flicker 5s infinite;
+
+}
+
+#glitch2:hover {
+    color: rgba(255,255,255, 1);
+    text-align: center;
+    text-shadow: 2px 0px rgba(255,0,255, 0.8),
+                 -2px 0px rgba(0,255,255, 0.9);
+    animation: none;
+}
+
+#glitch3 {
+    font-family: Andale Mono;
+    color: rgba(255,255,255, 1);
+    font-size: 60px;
+    line-height: 80px;
+    text-align: center;
+    font-weight: bold;
+    transition: all 0.5s linear; 
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    text-shadow: -4px 0px rgba(255,255,0, 1),
+                 4px 0px rgba(0,255,255, 1),
+                 8px 0px rgba(0,0,255, 1),
+                 -8px 0px rgba(255,0,0, 1);
+}
+
+#glitch3:hover {
+    font-family: Andale Mono;
+    color: rgba(255,255,255, 1);
+    font-size: 60px;
+    line-height: 80px;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: -2px 0px rgba(255,255,0, 1),
+                 2px 0px rgba(0,255,255, 1),
+                 4px 0px rgba(0,0,255, 1),
+                 -4px 0px rgba(255,0,0, 1);
+}
+
+@keyframes flicker {
+  0% {
+    text-shadow: 10px 0px rgba(255,0,255, 0.8),
+                 -5px 0px rgba(0,255,255, 0.9);  }
+  2% {
+    text-shadow: 10px 0px rgba(255,0,255, 0.8),
+                 -5px 0px rgba(0,255,255, 0.9);  }
+  2.1% {
+    text-shadow: 60px 0px rgba(255,0,255, 1),
+                 -10px 0px rgba(0,255,255, 1);  }
+  9% {
+    text-shadow: 60px 0px rgba(255,0,255, 1),
+                 -10px 0px rgba(0,255,255, 1);  }
+  9.1% {
+    text-shadow: 5px 0px rgba(255,0,255, 0.9),
+                 -80px 0px rgba(0,255,255, 0.9);  }
+  11% {
+    text-shadow: 5px 0px rgba(255,0,255, 0.8),
+                 -80px 0px rgba(0,255,255, 0.9);  }
+  11.1% {
+    text-shadow: 5px 0px rgba(255,0,255, 0.8),
+                 -5px 0px rgba(0,255,255, 0.9);  }
